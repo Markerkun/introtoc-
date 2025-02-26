@@ -13,13 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\01">
+      <UniqueIdentifier>{afe1b920-1622-4d7d-8815-c963672357ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02">
+      <UniqueIdentifier>{96ffaea7-186e-445e-b852-80799474f8dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01pw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\01</Filter>
     </ClCompile>
     <ClCompile Include="01hw.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\01</Filter>
+    </ClCompile>
+    <ClCompile Include="02pw.cpp">
+      <Filter>Source Files\02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
